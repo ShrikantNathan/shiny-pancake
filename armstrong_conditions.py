@@ -2,22 +2,6 @@ import pandas as pd
 from typing import Union, MutableSequence
 from pprint import pprint
 
-# columns = ['trade_code', 'trade_value']
-# data = {'trade_code': [1, 3, 5, 6, 7], 'trade_value': [2, 3, 4, 5, 6]}
-# data2 = {'trade_code': [2, 3, 4, 6, 8], 'trade_value': [1, 3, 3, 5, 6]}
-# df1 = pd.DataFrame(data)
-# df2 = pd.DataFrame(data2)
-# df3 = df1.merge(df2, on='trade_code')
-# # df1['trade_code'] = [1, 2, 3, 4, 5]
-# # df1['trade_value'] = [10, 20, 30, 40, 50]
-
-# # print(df1.head())
-
-# # df2['trade_code'] = [1, 2, 3, 4, 5]
-# # df2['trade_value'] = [10, 20, 30, 40, 50]
-# print('Dataframe 3 below:\n')
-# print(df3)
-
 def determine_armstrong_number(num: Union[MutableSequence[int], MutableSequence[float]]) -> bool:
     all_digits: MutableSequence[int] = list()
     original_num = num
